@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='xorn.conf'
-CONFIGFOLDER='/root/.XORN'
-COIN_DAEMON='xornd'
-COIN_CLI='xorn-cli'
+CONFIG_FILE='vorn.conf'
+CONFIGFOLDER='/root/.VORN'
+COIN_DAEMON='vornd'
+COIN_CLI='vorn-cli'
 COIN_PATH='/usr/local/bin/'
 #COIN_REPO='Place Holder'
-COIN_TAR='https://github.com/XORNcore/XORN/releases/download/1.1.0/Wallet_Linux_x64_1.1.0.tar'
-COIN_NAME='xorn'
-COIN_PORT=12311
-RPC_PORT=12310
+COIN_TAR='https://github.com/piklock/VORN/releases/download/1.1.0/Wallet_Linux_x64_1.1.0.tar'
+COIN_NAME='vorn'
+COIN_PORT=12349
+RPC_PORT=12319
 
 NODEIP=$(curl -s4 icanhazip.com)
 
