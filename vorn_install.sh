@@ -25,7 +25,7 @@ function download_node() {
   wget -q $COIN_TAR
   compile_error
   tar -xvf Wallet_Linux_x64_1.1.0.tar >/dev/null 2>&1
-  cd Linux_x64
+#  cd Linux_x64
   chmod +x $COIN_DAEMON $COIN_CLI
   compile_error
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
